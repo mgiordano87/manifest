@@ -1,21 +1,18 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!--
-  <include name="var-imx-android-11.0.0_2.4.0.xml"/>       
- -->
-  <!-- Remoto Terra -->
-  <remote fetch="https://github.com/mgiordano87" name="origin"/>  
 
+  <!-- Remoto Terra --> 
+  <remote fetch="https://github.com/mgiordano87" name="terra"/>
+  
   <!-- Valores por default para repositorios Terra -->
-  <default remote="origin" sync-j="4" revision="master"/>  
-
+  <sync-j="4"/>  
+  
   <!-- Proyecto Luminometro Terra -->
-  <project name="terra_app"     path="local_terra_app"      upstream="master"/>
-  <project name="terra_driver"  path="local_terra_driver"   upstream="master"/>
-  <project name="TerraRepo1"    path="local_TerraRepo1"     upstream="main"/>
-  <project name="TerraRepo2"    path="local_TerraRepo2"     upstream="main"/>
-  <project name="TerraRepo3"    path="local_TerraRepo3"     upstream="main"/>
-  <project name="art"           path="art"                  upstream="main"/>
-  <project name="bionic"        path="bionic"               upstream="main"/>
-  <project name="libcore"       path="libcore"              upstream="main"/>
+  <project name="linux_app"     path="local_terra_app"      upstream="master"   remote="terra"  revision=main/>
+  <project name="linux_driver"  path="local_terra_driver"   upstream="master"   remote="terra"  revision=main/>
+  <project name="TerraRepo1"    path="local_TerraRepo1"     upstream="main"     remote="terra"  revision=main/>
+  <project name="TerraRepo2"    path="local_TerraRepo2"     upstream="main"     remote="terra"  revision=main/>
+  <project name="TerraRepo3"    path="local_TerraRepo3"     upstream="main"     remote="terra"  revision=main/>
+
 </manifest>
