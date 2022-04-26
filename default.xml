@@ -11,7 +11,7 @@
 
   <!-- Proyecto Luminometro Terra -->
   <project name="terra_app"     path="local_terra_app"      revision="main" />
-  <project name="terra_driver"  path="local_terra_driver"   revision="master"/>
+  <project name="terra_driver"  path="local_terra_driver"   revision="main"/>
   <project name="TerraRepo1"    path="local_TerraRepo1"     revision="main"/>
   <project name="TerraRepo2"    path="local_TerraRepo2"     revision="main"/>
   <project name="TerraRepo3"    path="local_TerraRepo3"     revision="main"/>
