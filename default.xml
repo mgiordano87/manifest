@@ -10,11 +10,11 @@
   <default remote="origin" sync-j="4" revision="master"/>  
 
   <!-- Proyecto Luminometro Terra -->
-  <project name="terra_app"     path="local_terra_app"      upstream="master"/>
-  <project name="terra_driver"  path="local_terra_driver"   upstream="master"/>
-  <project name="TerraRepo1"    path="local_TerraRepo1"     upstream="main"/>
-  <project name="TerraRepo2"    path="local_TerraRepo2"     upstream="main"/>
-  <project name="TerraRepo3"    path="local_TerraRepo3"     upstream="main"/>
+  <project name="terra_app"     path="local_terra_app"      revision="main" />
+  <project name="terra_driver"  path="local_terra_driver"   revision="master"/>
+  <project name="TerraRepo1"    path="local_TerraRepo1"     revision="main"/>
+  <project name="TerraRepo2"    path="local_TerraRepo2"     revision="main"/>
+  <project name="TerraRepo3"    path="local_TerraRepo3"     revision="main"/>
    <!--
   <project name="art"           path="art"                  upstream="main"/>
   <project name="bionic"        path="bionic"               upstream="main"/>
