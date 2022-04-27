@@ -11,6 +11,11 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" /> 
 
+  <!-- NXP -->
+  <remote  name="imx-proprietary"
+           fetch="https://github.com/nxp/"
+           review="" />
+
   <!-- Valores por default para repositorios Terra -->
   <default remote="origin" sync-j="4" revision="master"/>  
 
@@ -23,10 +28,13 @@
 
   <!-- AOSP -->
   <project path="local_art" name="platform/art" groups="pdk" remote="aosp"    revision="refs/tags/android-11.0.0_r40"/>
-   <!--
 
+  <!-- proyecto nxp -->
+  <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="refs/tags/android-11.0.0_2.4.0" />
+
+<!--
   <project name="art"           path="art"                  upstream="main"/>
   <project name="bionic"        path="bionic"               upstream="main"/>
   <project name="libcore"       path="libcore"              upstream="main"/>
- -->
+-->
 </manifest>
